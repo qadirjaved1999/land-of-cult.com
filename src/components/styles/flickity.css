@@ -1,0 +1,22 @@
+/* Ensures the carousel has space */
+.carousel {
+  width: 100%;
+}
+
+/* Space between carousel cells */
+.carousel-cell {
+  width: 20rem; 
+  margin-right: 5rem; 
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Highlight the selected cell */
+.carousel-cell.is-selected {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+/* Hide Flickity dots */
+.flickity-page-dots {
+  display: none;
+}
